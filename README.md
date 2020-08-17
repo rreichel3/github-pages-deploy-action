@@ -13,7 +13,7 @@ You can include the action in your workflow to trigger on any event that [GitHub
 If the remote branch that you wish to deploy to doesn't already exist the action will create it for you.
 
 Your workflow will also need to include the `actions/checkout` step before this workflow runs in order for the deployment to work.
-
+ 
 You can view an example of this below.
 
 ```yml
